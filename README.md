@@ -207,224 +207,41 @@ I enjoy building software from the backend outward—designing clean APIs, worki
 
 </div>
 
----
-
-# Featured Projects
-
-These projects represent my journey toward becoming a backend software engineer through practical engineering challenges.
-
----
-
-<details open>
-
-<summary>
-
-## 🧠 VisionX — Multimodal X-ray Severity Prediction
-
-</summary>
-
-### Overview
-
-VisionX is a multimodal AI system that combines **Chest X-ray images** and **Radiology Reports** to predict disease severity using deep learning.
-
----
-
-### Problem
-
-Medical diagnosis often requires understanding both imaging and written reports. Most beginner AI systems process only one.
-
-VisionX combines both modalities into one inference pipeline.
-
----
-
-### Architecture
-
-```text
-Chest X-ray
-      │
-      ▼
-   ResNet
-      │
-      ├───────────────┐
-      │               │
-      ▼               ▼
-Clinical Report   ClinicalBERT
-      │               │
-      └──────┬────────┘
-             ▼
-      Feature Fusion
-             ▼
-      Severity Prediction
-```
-
----
-
-### Stack
-
-| Category | Technology |
-|----------|------------|
-| Language | Python |
-| AI | PyTorch |
-| NLP | ClinicalBERT |
-| Vision | ResNet |
-| Backend | FastAPI |
-| UI | Streamlit |
-
----
-
-### What I Learned
-
-- Building multimodal AI pipelines
-- Deploying models with FastAPI
-- Combining NLP and Computer Vision
-- Structuring production-ready inference workflows
-
-**Repository**
-
-```text
-https://github.com/Shade-art/Multimodal-xray-severity
-```
-
-</details>
-
----
-
-<details>
-
-<summary>
-
-## ☕ Journal REST API
-
-</summary>
-
-### Overview
-
-A Spring Boot backend project built to understand enterprise Java architecture and RESTful API development.
-
----
-
-### Architecture
-
-```text
-Client
-
-↓
-
-Controller
-
-↓
-
-Service
-
-↓
-
-Repository
-
-↓
-
-PostgreSQL
-```
-
----
-
-### Technologies
-
-- Java
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- PostgreSQL
-- Maven
-
----
-
-### Features
-
-- CRUD APIs
-- Layered Architecture
-- Dependency Injection
-- Hibernate ORM
-- PostgreSQL Integration
-
-**Repository**
-
-```text
-https://github.com/Shade-art/REST-APIs
-```
-
-</details>
-
----
-
-<details>
-
-<summary>
-
-## 🌐 NSS BIT Mesra Website
-
-</summary>
-
-Official website developed for the National Service Scheme, BIT Mesra.
-
-### Stack
-
-- React
-- Tailwind CSS
-- React Router
-- Vite
-- Vercel
-
-**Repository**
-
-```text
-https://github.com/Shade-art/nss-bitm
-```
-
-</details>
-
----
-
-<details>
-
-<summary>
-
-## 🛒 SPP-ECOM
-
-</summary>
-
-Responsive e-commerce web application featuring Firebase Authentication and dynamic product management.
-
-### Stack
-
-- HTML
-- CSS
-- JavaScript
-- Firebase
-
-### Features
-
-- Authentication
-- Product Listing
-- Responsive Design
-- Real-time Database
-
-**Repository**
-
-```text
-https://github.com/Shade-art/SPP-ECOM
-```
-
-</details>
-
----
+# 🚀 Featured Projects
 
 <div align="center">
 
-### *"Every project is an opportunity to deepen my understanding of software engineering—not just another repository."*
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| 🧠 **VisionX** | Multimodal AI system for disease severity prediction using X-ray images and radiology reports. | `PyTorch` `ClinicalBERT` `ResNet` `FastAPI` |
+| ☕ **Journal REST API** | Production-style backend application following layered architecture with Spring Boot and PostgreSQL. | `Java` `Spring Boot` `Hibernate` `PostgreSQL` |
+| 🌐 **NSS BIT Mesra** | Official website for the National Service Scheme, BIT Mesra. | `React` `Tailwind CSS` `Vite` |
+| 🛒 **SPP-ECOM** | Responsive e-commerce platform with Firebase Authentication and dynamic product management. | `JavaScript` `Firebase` |
 
 </div>
 
+<p align="center">
+
+<a href="https://github.com/Shade-art/Multimodal-xray-severity">
+<img src="https://img.shields.io/badge/VisionX-Repository-7C3AED?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://github.com/Shade-art/REST-APIs">
+<img src="https://img.shields.io/badge/Journal_API-Repository-7C3AED?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://github.com/Shade-art/nss-bitm">
+<img src="https://img.shields.io/badge/NSS_Website-Repository-7C3AED?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://github.com/Shade-art/SPP-ECOM">
+<img src="https://img.shields.io/badge/SPP--ECOM-Repository-7C3AED?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
 ---
+
 <!-- ========================================================= -->
 <!--          EDUCATION • ACHIEVEMENTS • DASHBOARD             -->
 <!-- ========================================================= -->
@@ -579,4 +396,3 @@ goal:
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:1E1B4B,30:312E81,65:4F46E5,100:7C3AED"/>
 
 </div>
-
